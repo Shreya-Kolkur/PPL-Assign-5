@@ -1,0 +1,13 @@
+class cat():
+         def __init__(self):
+             self.__legs=4
+             self.__eyes=2
+             self.__speak="meow"
+         def get_legs(self):
+             return(self.__legs)
+         def set_legs(self,n):
+             self.__legs=n
+         def get_eyes(self):
+             return(self.__eyes)
+         def get_speak(self):
+             return(self.__speak)

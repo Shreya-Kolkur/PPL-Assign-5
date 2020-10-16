@@ -1,0 +1,14 @@
+ class monkey():
+         def __init__(self):
+             self.__legs=2
+             self.__hands=2
+             self.__eyes=2
+             self.__speak="chatter"
+         def get_legs(self):
+             return(self.__legs)
+         def get_hands(self):
+             return(self.__hands)
+         def get_eyes(self):
+             return(self.__eyes)
+         def get_speak(self):
+             return(self.__speak)
